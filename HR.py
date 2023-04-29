@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 #Create a file and the HR diagram
 
 import os
@@ -185,4 +179,3 @@ def plot_HR():
 
 HR()
 plot_HR()
-
