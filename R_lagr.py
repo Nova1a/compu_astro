@@ -1,10 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[43]:
-
-
 # Create a file and the Lagrangian radii plots
+
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -138,10 +133,3 @@ def plot_R_L():
 
 R_L()
 plot_R_L()
-
-
-# In[ ]:
-
-
-
-
