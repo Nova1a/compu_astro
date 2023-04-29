@@ -104,7 +104,7 @@ def create_files():
                 else:
                     ratio.to_csv('ratio.csv', index=False ,mode="a", header=False)
                     
-    return print("Files has been created :)")
+    return print("Files have been created :)")
 
 
 def plot_binding_energy():
