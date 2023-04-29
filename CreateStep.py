@@ -1,14 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 # Walks through all files and gets the step to convert the time from NB units to Myr
 import os
 import pandas as pd
 
-os.chdir("/home/chema/Desktop/Astro&Cosmo/3rd/CA/Data") # Path to all the data
+os.chdir("/path/to/all/the/data/Data") # Path to all the data
 
 def step_csv():
     lo=[]
@@ -35,8 +29,7 @@ def step_csv():
     step["step"] = step["TIME[NB]"]/100 
     step = step.drop(["TIME[NB]"],axis=1)
     step.columns = ["Z","MCLU","step"]
-    step.to_csv('/home/chema/Desktop/Astro&Cosmo/3rd/CA/FinalFinal/step.csv', index=False)
+    step.to_csv('step.csv', index=False)
     return print("File has been created :)")
 
 step_csv()
-
