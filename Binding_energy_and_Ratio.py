@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
+# Create the files and figures for the binding energy and the ratio of primordial and non-primordial binaries
 
 import os
 import pandas as pd
@@ -206,4 +202,3 @@ def plot_ratio():
 #create_files()
 #plot_binding_energy()
 #plot_ratio()
-
